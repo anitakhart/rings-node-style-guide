@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style-guide.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Style Guide | Planetary Rings Node</title>
+</head>
+<body>
+	<header>
+	
+		<nav>
+			<ul class="cd-main-nav">
+				<li><a href="#branding">Branding</a></li>
+				<li><a href="#colors">Colors</a></li>
+				<li><a href="#typography">Typography</a></li>
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#tabs">Tabs</a></li>
+                <li><a href="#tables">Data Tables</a></li>
+				<li><a href="#alerts">Alerts</a></li>
+                <li><a href="#nav">Navigation</a></li>
+                <li><a href="#home">Home</a></li>
+			</ul> <!-- cd-main-nav -->
+		</nav>
+		
+		<a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+	</header>
+
+	<main>
+		<h1>Planetary Rings Node - Style Guide</h1>
+
+
+<!-- Branding -->
+		<section id="branding" class="cd-branding">
+			<h2 class="styleguide">Branding - Header graphic e.g. for placement</h2>
+			
+            <div class="banner-sample">
+            <div class="brandtext">Planetary Rings Node</div>
+            </div>
+			
+            <div class="padding12">
+            <p>Planetary Rings Node brand is white html text over the rotating background banner images. Font: 42px Open Sans / weight 300</p>
+            </div>
+		</section>
+
+
+<!-- Colors -->
+	  <section id="colors" class="cd-colors">
+			<h2 class="styleguide">Common Colors</h2>
+
+			<ul>
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>Indigo Blue
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>Almost Black
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>Light Gray
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>Medium Gray
+				</li>
+
+				<li class="cd-box">
+					<div class="cd-color-swatch"></div>Light Yellow
+				</li>
+			</ul>
+          
+            
+<div class="">
+<p><strong>common color values</strong></p>
+<p>body copy: #222222<br>
+link: #435ca4<br>
+visited: #4e4a92<br>
+active: #31488d<br>
+hover: #5a72b7<br>
+text highlight - yellow: #fffa93<br>
+table header background - yellow: #fdfabe<br>
+table row - white: #ffffff<br>
+table row alt - gray: #efefef<br>
+table border: #cccccc<br>
+button: #435ca4<br>
+button hover: #5a72b7</p>
+</div>
+  </section>
+
+<!-- Typography -->
+		<section id="typography" class="cd-typography">
+			<h2 class="styleguide">Typography</h2>
+
+			<div class="cd-box">
+				<h1>H1 Heading, Open Sans 300, 36px</h1>
+				<p>Paragraph: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
+                
+                <h2>H2 Heading, Open Sans 400, 30px</h2>
+                <p>Paragraph: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
+                
+                <h3>H3 Heading, Open Sans 400, 24px</h3>
+                <p>Paragraph: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
+                
+                 <h4>H4 Heading, Open Sans 600, 18px</h4>
+                <p>Paragraph: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate distinctio reprehenderit, autem deleniti ad <a href="#0">voluptatum eaque</a>. Optio ea aperiam nisi distinctio nemo repellat, voluptate fugiat. Quidem neque illum, blanditiis!</p>
+                
+                <ul class="sample">
+                <li class="sample">List test</li>
+                <li class="sample">List test</li>
+                <li class="sample">List test</li>
+                </ul>
+                
+			</div>
+		</section>
+
+
+
+<!-- Buttons -->
+		<section id="buttons" class="cd-buttons">
+			<h2 class="styleguide">Buttons</h2>
+
+			<div class="cd-box">
+				<button class="btn">Normal</button>
+				<button class="btn btn-success">Success</button>
+				<button class="btn btn-alert">Alert</button>
+				<button class="btn btn-outline">Outline</button>
+			</div>
+			
+<div>
+<pre><code>
+.btn {
+  border: none;
+  box-shadow: none;
+  border-radius: .25em;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  padding: .6em 2.2em;
+  cursor: pointer;
+  background: #435ca4;
+}
+.btn:focus {
+  outline: none;
+}
+.no-touch .btn:hover {
+  background: #5a72b7;
+}
+.btn.btn-success {
+  background: #6fce72;
+}
+.no-touch .btn.btn-success:hover {
+  background: #82d485;
+}
+.btn.btn-alert {
+  background: #e4655f;
+}
+.no-touch .btn.btn-alert:hover {
+  background: #e87a75;
+}
+.btn.btn-outline {
+  color: #435ca4;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #435ca4;
+}
+.no-touch .btn.btn-outline:hover {
+  color: #ffffff;
+  background: #435ca4;
+}
+</code></pre>
+</div>
+
+		</section>
+
+
+<!-- Tabs -->
+		<section id="tabs" class="">
+			<h2 class="styleguide">Tabs</h2>
+
+			<div class="">
+			<ul class="tab-pill-group">
+  <li class="tab-pill"><a href="#" style="color:#435ca4">ROSES</a></li>
+  <li class="tab-pill active">Data Status</li>
+  <li class="tab-pill"><a href="#" style="color:#435ca4">CDAPS</a></li>
+  <li class="tab-pill"><a href="#" style="color:#435ca4">PDART</a></li>
+</ul>
+			</div>
+            
+            <div class="padding12">
+            
+            The "active" tab is white background with yellow bar image (active-tab-bg.png).
+            </div>
+		</section>
+        
+
+<!-- Data Tables -->	
+        <section id="tables" class="tables">
+                <h2 class="styleguide">Data Tables</h2>
+    
+                <div class="">                  
+                   <table>
+                    <tr>
+                        <th>Data Set or Volume ID</th>
+                        <th>Date Available</th>
+                        <th>Certification Status</th>
+                        <th>Date Certified</th>	
+                    </tr>
+                    <tr>
+                        <td>ASTROM_0001</td>
+                        <td>2004-08-01</td>
+                        <td>certified</td>
+                        <td>2004-08-01</td>
+                    </tr>
+                    <tr>
+                      <td>ASTROM_0101</td>
+                      <td>2008-06-01</td>
+                      <td>certified</td>
+                      <td>2008-06-01</td>
+                    </tr>
+                    <tr>
+                      <td>COCIRS_0010 through COCIRS_0306 (version 2.0)</td>
+                      <td>2012-01-01</td>
+                      <td>certified</td>
+                      <td>2012-01-01</td>
+                    </tr>
+                    <tr>
+                      <td>COCIRS_0401 through COCIRS_1103 (version 3.1)*</td>
+                      <td>2012-01-01</td>
+                      <td>certified</td>
+                      <td>2012-01-01*</td>
+                    </tr>
+                    <tr>
+                      <td>COCIRS_1104 through COCIRS_1106 (version 3.1)*</td>
+                      <td>2012-04-01</td>
+                      <td>certified</td>
+                      <td>2012-04-01*</td>
+                    </tr>
+                    <tr>
+                      <td>COCIRS_1107 through COCIRS_1109 (version 3.1)*</td>
+                      <td>2012-07-01</td>
+                      <td>certified</td>
+                      <td>2012-07-01*</td>
+                    </tr>
+                </table> 
+                </div>   
+            </section>
+            
+            
+<!-- Alerts -->            
+            <section id="alerts" class="alerts">
+                <h2 class="styleguide">Alerts</h2>
+    
+                <div class="cd-box">
+                    <div class="alert alert-success" role="alert">
+        <strong>Well done!</strong> You successfully read this important alert message.
+      </div>
+      <div class="alert alert-info" role="alert">
+        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+      </div>
+
+                </div>
+            </section>
+        
+<!-- Nav -->
+			<section id="nav" class="">
+			 <h2 class="styleguide">Navigation sample - vertical, approx 170px wide, (spans 2 Bootstrap columns of 12)</h2>
+                <div class="nav-container"> 
+                <h3 class="nav-heading"><a href=""><strong>Cassini News</strong></a></h3> 
+					<ul class="nav">
+                    <li class="nav active"><a href="">Cassini Mission (JPL)</a></li>
+                    <li class="nav"><a href="">Press Release Images</a></li>
+                    <li class="nav"><a href="">Data and Information</a></li>
+                    </ul>
+                    
+                 <h3 class="nav-heading"><a href=""><strong>Ringed Planets</strong></a></h3> 
+					<ul class="nav">
+                    <li class="nav active"><a href="">Jupiter</a></li>
+                    <li class="nav"><a href="">Saturn</a></li>
+                    <li class="nav"><a href="">Uranus</a></li>
+                    <li class="nav"></li>
+                    </ul>
+                    
+				</div>
+			</section>
+            
+<!-- Home -->
+			<section id="home" class="">  
+            <h2 class="styleguide">Home page styles</h2>  
+                    
+            	<div class="homebox-left">
+                <h2>Services</h2>
+                <ul class="homebox">
+                <li><a href=""><strong>OPUS</strong> (The Rings Node's Data Search Tool) testing line height length width etc</a></li>
+                <li><a href=""><strong>ROSES Support</strong></a></li>
+                <li><a href=""><strong>Ephemeris Tools</strong></a></li>
+                </ul>
+                </div>
+            	
+            </section>
+            
+            
+            <br><br><br>
+	</main>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
