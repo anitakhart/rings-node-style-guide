@@ -1296,7 +1296,7 @@ h3.nav-heading a:active {
 ul.nav {
 	display: block;
 	list-style-type: none;
-	margin: 15px;
+	margin: 0;
 	padding: 0;	
 }
 
@@ -1317,7 +1317,7 @@ ul.nav a:active {
 li.nav {
 	font: 14px 'Open Sans', sans-serif;
 	line-height: 1.2em;
-	margin-bottom: 13px;
+	margin-bottom: 2px;
 	padding: 0;
 }
 
@@ -1338,30 +1338,31 @@ Home
 
 -------------------------------- */
 
-
-.homebox-left {
-	width: 470px;
+.homebox {
 	border: 1px solid #cccccc;
 	background-color: #ffffff;
-	margin: 0;
-	padding: 0;
 }
 
-.homebox-left h2 {
-	background: url(../assets/PRN_home_heading_bg.png) no-repeat;
-	width: 468px;
-	height: 45px;
-	color: #ffffff;
-	font-size: 30px;
-  	font-weight:400;
-	text-align: center;
-	margin: 0;
-	padding: 4px;
+.homebox .panel-heading {
+  background: url(../assets/PRN_home_heading_bg.png) no-repeat;
+  background-color: #585858;
+  color: #ffffff;
+  font-weight:200;
+  text-align: center;
+  padding:0;
+  padding-bottom:5px;
+
 }
-
-
+.homebox h2 {
+  font-family: 'Open Sans', sans-serif;
+  margin:0; padding:0;
+  font-weight: 400;
+  color:white;
+  padding-top:5px;
+}
 
 ul.homebox  {
+  border:0;
 	display: block;
 	list-style-type: disc;
 	margin: 15px;
@@ -1386,4 +1387,3 @@ ul.homebox a:hover {
 ul.homebox a:active {
 	color: #31488d;
 }
-
