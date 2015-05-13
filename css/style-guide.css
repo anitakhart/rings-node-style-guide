@@ -1070,7 +1070,7 @@ background: #efefef;
   font-family: 'Open Sans', sans-serif;
   font-weight:600;
   color: #222222;
-  margin-right: 6px;
+  margin: 0 6px 6px 0;
   padding: 16px;
   cursor: pointer;
 text-align:center;
@@ -1087,7 +1087,7 @@ li.tab-pill.active {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:600;
 	color: #222222;
-	margin-right: 6px;
+	margin: 0 6px 6px 0;
 	padding: 16px;
 	cursor: pointer;
 	text-align:center;
