@@ -1329,6 +1329,10 @@ ul.nav:last-child {
 	padding-bottom: 12px;	
 }
 
+li.active {
+background-color: #ffffff;	
+border-left: 3px solid #fffa93;	
+}
 
 
 /* -------------------------------- 
